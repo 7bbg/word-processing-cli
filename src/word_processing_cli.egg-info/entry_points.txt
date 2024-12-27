@@ -1,0 +1,3 @@
+[console_scripts]
+wp = src.main:main
+
