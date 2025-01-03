@@ -39,7 +39,7 @@ A simple Python command-line tool that mimics the functionality of the Unix `wc`
     ./venv/Scripts/activate
     ```
 
-4. **Install require packages**:  `python3 -m pip install --editable`
+4. **Install require packages**:  `python -m pip install --editable`
 
 ### Ensure `word_processing.py` Exists
 This project relies on a custom module, `word_processing.py`, which contains the logic for counting words, lines, bytes, etc. Make sure the `word_processing.py` file exists and is located in the same directory as your `main.py`. It should define a class `WORD_PROCESSING` with a `display_results()` method.
